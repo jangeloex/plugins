@@ -29,5 +29,10 @@
   ],
   "skills": "./skills/",
   "agents": "./agents/",
-  "_notes": "Forked for personal learning. Using this to audit my own side projects for doc/startup issues."
+  "_notes": "Forked for personal learning. Using this to audit my own side projects for doc/startup issues.",
+  "_personalConfig": {
+    "defaultScanDepth": 3,
+    "ignorePatterns": ["node_modules", ".git", "dist", "coverage"],
+    "verboseLogging": true
+  }
 }
