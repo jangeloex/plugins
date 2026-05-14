@@ -14,3 +14,4 @@ All notable changes to this plugin will be documented here.
 
 - Keeping an eye on the blended score weighting — might tweak the deterministic vs. agent ratio for my own projects.
 - TODO: test how `docs-reliability-review` behaves on repos with sparse docs.
+- Tried bumping the deterministic weight from 0.5 to 0.65 on a small project — results felt more consistent, keeping this in mind for future tuning.
