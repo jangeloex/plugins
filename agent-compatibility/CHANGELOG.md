@@ -9,3 +9,8 @@ All notable changes to this plugin will be documented here.
 - Renamed `docs-reality-review` to `docs-reliability-review`.
 - Clarified the score model so `Agent Compatibility Score` is the final blended score and `Deterministic Compatibility Score` is the raw CLI score.
 - Tightened the README, marketplace copy, and agent wording for public release.
+
+## Notes (personal fork)
+
+- Keeping an eye on the blended score weighting — might tweak the deterministic vs. agent ratio for my own projects.
+- TODO: test how `docs-reliability-review` behaves on repos with sparse docs.
