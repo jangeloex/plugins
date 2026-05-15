@@ -85,3 +85,5 @@ If you want to use this plugin directly, symlink this directory into:
 ```bash
 ~/.cursor/plugins/local/agent-compatibility
 ```
+
+> **Personal note:** I've found it useful to also pin a specific version of the CLI in package.json rather than always pulling `@latest`, especially on projects where I want reproducible scores across runs. Something like `"agent-compatibility": "^1.2.0"` as a dev dependency works well.
