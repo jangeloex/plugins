@@ -17,3 +17,4 @@ All notable changes to this plugin will be documented here.
 - Tried bumping the deterministic weight from 0.5 to 0.65 on a small project — results felt more consistent, keeping this in mind for future tuning.
 - Update 2024-07: ran `docs-reliability-review` on a repo with basically no docs — it mostly just flagged missing README sections, wasn't super useful below a certain doc coverage threshold. Might only enable it for projects with at least some existing docs.
 - Update 2024-08: going with deterministic weight of 0.65 as my personal default going forward. Also thinking about adding a `--min-doc-coverage` flag to skip `docs-reliability-review` automatically when doc coverage is below some threshold (maybe 20%?).
+- Update 2024-09: settled on `--min-doc-coverage=25` as the threshold after a bit more testing. 20% caught too many false positives on projects that had inline comments but no markdown docs. 25% feels like a better cutoff.
