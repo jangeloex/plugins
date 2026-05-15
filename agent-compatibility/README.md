@@ -87,3 +87,5 @@ If you want to use this plugin directly, symlink this directory into:
 ```
 
 > **Personal note:** I've found it useful to also pin a specific version of the CLI in package.json rather than always pulling `@latest`, especially on projects where I want reproducible scores across runs. Something like `"agent-compatibility": "^1.2.0"` as a dev dependency works well.
+
+> **Another thing I noticed:** the `--md` output is the most useful format when you want to paste results into a PR description or a GitHub issue. I usually alias `npx -y agent-compatibility@latest --md . > agent-compat-report.md` in my Makefile so I can run it in one step.
